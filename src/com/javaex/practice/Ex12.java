@@ -10,12 +10,12 @@ public class Ex12 {
 		
 		System.out.println("숫자를 입력하세요.");
 		int num=sc.nextInt();
-		int sum=1;
+		int fac=1;
 		
-		for (int a=1; a<=num; a++) {
-			sum*=a;
+		for (int i=1; i<=num; i++) {
+			fac*=i;
 		}
-		System.out.println("결과값: "+sum);
+		System.out.println("결과값: "+fac);
 		
 		sc.close();
 	}

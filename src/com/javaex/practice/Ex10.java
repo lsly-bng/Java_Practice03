@@ -11,7 +11,7 @@ public class Ex10 {
 		System.out.println("숫자를 입력하세요.");
 		int max=0;
 		
-		for(int a=1; a<=5; a++) {
+		for(int i=1; i<=5; i++) {
 			System.out.print("숫자: ");
 			int num=sc.nextInt();
 			

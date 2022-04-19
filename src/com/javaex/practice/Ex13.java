@@ -12,8 +12,8 @@ public class Ex13 {
 		int num=sc.nextInt();
 		int sum=0;
 		
-		for (int a=1; a<=num; a++) {
-			sum+=a;
+		for (int i=1; i<=num; i++) {
+			sum+=i;
 		}
 		System.out.println("결과값: "+sum);
 		

@@ -13,10 +13,9 @@ public class Ex16 {
 		int count=0;
 		int sum=0;
 
-		for (int a=5; a<=num; a+=5) {
+		for (int i=5; i<=num; i+=5) {
 			count++; 
-			sum+=a;
-			
+			sum+=i;
 		}
 		System.out.println("5의배수의 개수: "+count);
 		System.out.println("5의배수의 합: "+sum);

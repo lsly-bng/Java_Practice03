@@ -4,9 +4,9 @@ public class Ex09 {
 
 	public static void main(String[] args) {
 		
-		for (int a=1; a<=10; a++) {
-			for (int b=a; b<=10+a; b++) {
-				System.out.print (b+"\t");
+		for (int i=1; i<=10; i++) {
+			for (int j=i; j<=10+i; j++) {
+				System.out.print (j+"\t");
 			}
 			System.out.println();
 		}

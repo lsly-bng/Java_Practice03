@@ -4,9 +4,9 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 		
-		for(int a=1; a<=9; a++) {
-			for(int b=2; b<=9; b++) {
-				System.out.print(b+"*"+a+"="+a*b+"\t");
+		for(int i=1; i<=9; i++) {
+			for(int j=2; j<=9; j++) {
+				System.out.print(j+"*"+i+"="+i*j+"\t");
 			}
 			System.out.println();
 		}

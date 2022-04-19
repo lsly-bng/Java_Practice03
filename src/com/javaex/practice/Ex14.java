@@ -12,13 +12,13 @@ public class Ex14 {
 		int num=sc.nextInt();
 		int sum=0;
 		
-		for (int a=1; a<=num; a++) {
-			sum+=a;
-			if (a<num) {
-				System.out.print(a+"+");
+		for (int i=1; i<=num; i++) {
+			sum+=i;
+			if (i<num) {
+				System.out.print(i+"+");
 			}
 			else {
-			System.out.println(a);
+			System.out.println(i);
 			}
 		}
 		System.out.println("결과값: "+sum);
